@@ -1,0 +1,12 @@
+{
+    "employee": {
+        "id": "E00001",
+        "name": "Bryan Smith",
+        "position": "Chemical engineer",
+        "department": {
+            "id": "D080",
+            "name": "Incentivize",
+            "numbers": [1,2,3,4,5]
+            }
+	}
+}
