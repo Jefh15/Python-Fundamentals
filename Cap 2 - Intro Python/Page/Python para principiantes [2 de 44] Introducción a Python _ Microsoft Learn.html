@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html class="layout layout-single episode show-breadcrumb default-focus theme-light" lang="es-es" dir="ltr" data-authenticated="true" data-auth-status-determined="true" data-target="docs" x-ms-format-detection="none" style="--window-inner-height: 747px !important; --atlas-header-height: 145px !important; --atlas-footer-height: 204px !important; --atlas-header-visible-height: 145px !important; --atlas-footer-visible-height: 0px !important;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+			<title>Python para principiantes [2 de 44] Introducción a Python | Microsoft Learn</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="color-scheme" content="light dark">
+
+			<meta name="description" content="Antes de empezar a trabajar en su recorrido hacia el aprendizaje de Python, es importante saber por qué. Hablaremos sobre qué es Python, dónde lo usará y cómo puede ayudarle a resolver el problema.Curso completo de introducción a Python en Microsoft Learn:&amp;nbsp;https://aka.ms/MSLearnPythonEjemplo de código:&amp;nbsp;https://aka.ms/PythonGettingStartedVea toda la serie:&amp;nbsp;https://aka.ms/PythonBeginnerSeries ">
+			<link rel="canonical" href="https://learn.microsoft.com/es-es/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python"> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:site" content="@MicrosoftLearn">
+			<meta property="og:type" content="website">
+			<meta property="og:image:alt" content="Microsoft Learn">
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png">
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="Python para principiantes [2 de 44] Introducción a Python">
+			<meta property="og:url" content="https://learn.microsoft.com/es-es/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python">
+			<meta property="og:description" content="Antes de empezar a trabajar en su recorrido hacia el aprendizaje de Python, es importante saber por qué. Hablaremos sobre qué es Python, dónde lo usará y cómo puede ayudarle a resolver el problema.Curso completo de introducción a Python en Microsoft Learn:&amp;nbsp;https://aka.ms/MSLearnPythonEjemplo de código:&amp;nbsp;https://aka.ms/PythonGettingStartedVea toda la serie:&amp;nbsp;https://aka.ms/PythonBeginnerSeries ">
+			<meta name="platform_id" content="98e88e6c-4bc1-5e75-02c4-98b047bca2ac"> 
+			<meta name="locale" content="es-es">
+			  <meta name="learn-experiments" content="true">
+			<meta name="uhfHeaderId" content="MSDocsHeader-Shows">
+
+			<meta name="page_type" content="episode">
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="entryId" content="538eb8eb-f618-4d22-8bbe-15405582f5a6">
+	
+		<meta name="origin" content="9c864f03-269d-403a-9a41-aa93012ab0ab">
+	
+		<meta name="schema" content="Episode">
+	
+		<meta name="showId" content="intro-to-python-development">
+	
+		<meta name="uid" content="intro-to-python-development.python-for-beginners-2-of-44-introducing-python">
+	
+		<meta name="ms.translationtype" content="MT">
+	
+		<meta name="ms.contentlocale" content="es-es">
+	
+		<meta name="loc_version" content="2023-06-05T08:23:01.9420698Z">
+	
+		<meta name="loc_source_id" content="Github-414407665#live">
+	
+		<meta name="loc_file_id" content="Github-414407665.live.MSDN.show.intro-to-python-development/python-for-beginners-2-of-44-introducing-python.yml">
+	
+		<meta name="author" content="markdefalco">
+	
+		<meta name="breadcrumb_path" content="/shows/breadcrumb/toc.json">
+	
+		<meta name="depot_name" content="MSDN.show">
+	
+		<meta name="document_id" content="f7dcbb4b-0670-4a0f-64da-de870cb322b5">
+	
+		<meta name="document_version_independent_id" content="f7dcbb4b-0670-4a0f-64da-de870cb322b5">
+	
+		<meta name="feedback_system" content="None">
+	
+		<meta name="git_commit_id" content="4e96b7d724c104b883875d8961b889d1bd538b53">
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/show-pr/blob/4e96b7d724c104b883875d8961b889d1bd538b53/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python.yml">
+	
+		<meta name="ms.localizationpriority" content="low">
+	
+		<meta name="ms.topic" content="episode">
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/show-pr/blob/live/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python.yml">
+	
+		<meta name="site_name" content="Docs">
+	
+		<meta name="updated_at" content="2025-01-18T02:34:00Z">
+	
+		<meta name="feedback_product_url" content="">
+	
+		<meta name="feedback_help_link_type" content="">
+	
+		<meta name="feedback_help_link_url" content="">
+	
+		<meta name="asset_id" content="intro-to-python-development/python-for-beginners-2-of-44-introducing-python">
+	
+		<meta name="item_type" content="Content">
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/show-pr/blob/live/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python.yml">
+	
+		<meta name="markdown_url" content="https://learn.microsoft.com/es-es/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python?accept=text/markdown">
+	 
+
+			<!-- assets and js globals -->
+			
+		<!-- Shaka Player -->
+		<link rel="stylesheet" href="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/controls.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+		<!-- One Stream Player -->
+		<link rel="stylesheet" href="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/one_stream_player-v0.4.0.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+	
+			<link rel="stylesheet" href="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/site-ltr.css">
+			<script id="learn-experiments-context" type="application/json">
+				{"source":"live","assignmentContext":"learn_aa_test_mc1-control:1083670;","variantNames":["learn_aa_test_mc1-control"],"variants":{"learn_aa_test_mc1-control":{"MSLearn|learn_aa_test_mc1":false}},"dataVersion":42}
+		  </script>
+			
+			<script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/wcp-consent.js"></script>
+			<script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/ms.jsll-4.min.js"></script>
+			<script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "es-es",
+    "contentDir": "ltr",
+    "userLocale": "es-es",
+    "userDir": "ltr",
+    "pageTemplate": "Episode",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "None",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "",
+    "extendBreadcrumb": true,
+    "isEditDisplayable": false,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": []
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/index-docs.js"></script><style></style>
+			
+
+			<!-- json-ld -->
+			
+		<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"name":"Learn","position":1,"@type":"ListItem","item":"/es-es/"},{"name":"Programa","position":2,"@type":"ListItem","item":"/es-es/shows"},{"name":"Python para principiantes","position":3,"@type":"ListItem","item":"/es-es/shows/intro-to-python-development/index"}]}</script><style id="captions-style-a8efc-3042-6bc9-b4b6-71e9906b85c8">.custom-texttrack-container {font-family: sans-serif;text-shadow: none;font-size: 100%;background-color: rgba(0, 0, 0, 1) !important;_bgColor: rgba(0, 0, 0, {0});_bgOpacity: 1;color: rgba(255, 255, 255, 1);_fgColor: rgba(255, 255, 255, {0});_fgOpacity: 1;}
+.captions-style-a8efc-3042-6bc9-b4b6-71e9906b85c8 {_position: Bottom !important;}
+.captions-style-a8efc-3042-6bc9-b4b6-71e9906b85c8 span[style ="background-color: black;"], span[style ="background-color: rgba(0, 0, 0, 0.8);"] {font-family: sans-serif;text-shadow: none;font-size: 100%;background-color: rgba(0, 0, 0, 1) !important;_bgColor: rgba(0, 0, 0, {0});_bgOpacity: 1;color: rgba(255, 255, 255, 1);_fgColor: rgba(255, 255, 255, {0});_fgOpacity: 1;}
+.captions-style-a8efc-3042-6bc9-b4b6-71e9906b85c8 {box-shadow: inset 0 -1.5em 0 rgba(0, 0, 0, {0});padding: 0 0.1em;_bgColor: rgba(0, 0, 0, {0});}
+</style><style id="captions-ios-style-font">video::-webkit-media-text-track-display {font-size: 1.6vmax !important; position: absolute !important; top: unset !important; bottom: 1% !important; height: auto !important}video::-webkit-media-text-track-container{ height:85% !important;}</style><style id="#tooltipmore">
+            .tooltip-text::after {
+              content: ' ';
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              margin-left: -5px;
+              border-width: 5px;
+              border-style: solid;
+              margin-left: 10px;
+              border-color: black transparent transparent transparent;
+            }
+            
+        </style><style id="#tooltipless">
+        .tooltip-text::after {
+          content: ' ';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -5px;
+          border-width: 5px;
+          border-style: solid;
+          margin-left: -15px;
+          border-color: black transparent transparent transparent;
+        }
+        </style></head>
+	
+			<body id="body" data-bi-name="body" class="layout-body " lang="es-es" dir="ltr">
+				<header class="layout-body-header">
+		<div class="header-holder has-default-focus">
+			
+		<a href="#main" style="z-index: 1070" class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body">
+			Ir al contenido principal
+		</a>
+	
+
+			<div hidden="" id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div id="unsupported-browser" style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;" hidden="">
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">Este explorador ya no se admite.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Actualice a Microsoft Edge para aprovechar las características y 
+actualizaciones de seguridad más recientes, y disponer de soporte 
+técnico.
+					</p>
+					<div style="margin-top: 12px;">
+						<a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881" style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;">
+							Descargar Microsoft Edge
+						</a>
+						<a href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge" style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;">
+							Más información sobre Internet Explorer y Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<div id="ms--site-header" data-test-id="site-header-wrapper" itemscope="itemscope" itemtype="http://schema.org/Organization">
+				<div id="ms--mobile-nav" class="site-header display-none-tablet padding-inline-none gap-none" data-bi-name="mobile-header" data-test-id="mobile-header"><!---->
+		<div id="ms--site-header-hamburger" data-test-id="site-header-hamburger">
+			<button type="button" class="button button-clear inner-focus customToolTipDisabled" data-test-id="mobile-nav-open-button" data-bi-name="mobile-nav-open-button" title="Navegación global" aria-label="Navegación global">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-menu"></span>
+				</span>
+			</button>
+		</div>
+
+		<!-- Brand -->
+		
+		<a class="site-header-brand" itemprop="url" href="https://learn.microsoft.com/es-es/" data-bi-name="site-header-brand-learn-mobile" data-test-id="site-header-brand-mobile">
+			<span><!---->Learn<!----></span>
+		</a>
+	
+
+		<!-- MS logo -->
+		
+		<a href="https://www.microsoft.com/" aria-label="Microsoft" itemprop="url" data-bi-name="site-header-microsoft-logo-mobile" data-test-id="site-header-microsoft-logo-mobile" class="site-header-logo site-header-logo-centered">
+			
+		<svg aria-hidden="true" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" itemprop="logo" itemscope="itemscope">
+			<path d="M11.5216 0.5H0V11.9067H11.5216V0.5Z" fill="#f25022"></path>
+			<path d="M24.2418 0.5H12.7202V11.9067H24.2418V0.5Z" fill="#7fba00"></path>
+			<path d="M11.5216 13.0933H0V24.5H11.5216V13.0933Z" fill="#00a4ef"></path>
+			<path d="M24.2418 13.0933H12.7202V24.5H24.2418V13.0933Z" fill="#ffb900"></path>
+		</svg>
+	
+		</a>
+	
+
+		<!-- Search -->
+		
+		<search-expander data-test-id="site-header-search-mobile" class="display-flex flex-grow-1 justify-content-flex-end">
+			<div hidden="" id="ms--site-header-search-mobile" class="display-flex align-items-center gap-xxs width-full padding-left-xxs">
+				
+		<form class="flex-grow-1" method="GET" role="search" id="ms--site-header-search-form-mobile" data-bi-name="site-header-search-form-mobile" name="site-header-search-form-mobile" aria-label="Buscar" action="/es-es/search/">
+			<div class="autocomplete display-block" data-bi-name="autocomplete"><!---->
+			<div class="field-body control ">
+				<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" id="site-header-search-autocomplete-input-mobile" data-test-id="site-header-search-autocomplete-input-mobile" class="autocomplete-input input 
+						
+						width-full" type="search" name="terms" aria-expanded="false" aria-owns="ax-1-listbox" aria-controls="ax-1-listbox" aria-activedescendant="" aria-label="Buscar" aria-describedby="ms--site-header-search-autocomplete-input-mobile-description" placeholder="Buscar" data-bi-name="site-header-search-autocomplete-input-mobile" pattern=".*">
+
+				
+				
+
+				<span hidden="" id="ms--site-header-search-autocomplete-input-mobile-description">
+					Las sugerencias se filtrarán a medida que escriba
+				</span>
+			</div>
+
+			<ul role="listbox" id="ax-1-listbox" data-test-id="site-header-search-autocomplete-input-mobile-listbox" class="autocomplete-suggestions is-vertically-scrollable padding-xxs " aria-label="Sugerencias" hidden="">
+				
+				
+			</ul>
+		<!----></div>
+			<!-- mobile safari will not dispatch submit event unless there's a submit button that is not display:none -->
+			<button type="submit" class="visually-hidden" tabindex="-1" aria-hidden="true"></button>
+			<input name="category" hidden="" value="Show">
+			
+			
+		</form>
+	
+				<button data-search-expander-trigger-close="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search-mobile" aria-label="Cerrar búsqueda" data-bi-name="site-header-search-close-mobile" data-test-id="site-header-search-close-mobile">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-navigate-close"></span>
+					</span>
+				</button>
+			</div>
+			<button data-search-expander-trigger-open="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search-mobile" aria-label="Abrir búsqueda" data-bi-name="site-header-search-open-mobile" data-test-id="site-header-search-open-mobile">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-search"></span>
+				</span>
+			</button>
+		</search-expander>
+	
+
+		<!-- User avatar/Sign in -->
+		<!---->
+		<a href="#" data-bi-name="site-header-sign-in-mobile" data-test-id="site-header-sign-in-mobile" class="link-button font-size-sm flex-shrink-0 docs-sign-in auth-status-determined not-authenticated margin-right-xs margin-left-xxs">
+			Iniciar sesión
+		</a>
+	 
+		<details data-bi-name="site-header-user-mobile" class="popover popover-right auth-status-determined authenticated margin-right-xs margin-left-xxs">
+			<summary data-bi-name="site-header-user-avatar" aria-label="Su cuenta" data-test-id="site-header-user-mobile">
+				<div class="persona persona-sm">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarThumbnailUrl" src="data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='64' class='font-weight-bold' style='font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial' width='64'%3E%3Ccircle fill='hsl(0, 36%, 10%)' cx='32' cy='32' r='32' /%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFF' %3EJS%3C/text%3E%3C/svg%3E">
+					</figure>
+				</div>
+			</summary>
+			<div class="popover-content width-auto" data-bi-name="site-header-user-menu">
+				<div class="persona persona-sm">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarUrl" aria-labelledby="ms--user-display-name-mobile" src="data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='64' class='font-weight-bold' style='font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial' width='64'%3E%3Ccircle fill='hsl(0, 36%, 10%)' cx='32' cy='32' r='32' /%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFF' %3EJS%3C/text%3E%3C/svg%3E">
+					</figure>
+					<div class="persona-details" data-test-id="persona-detail-mobile">
+						<p class="persona-name" data-profile-property="displayName" id="ms--user-display-name-mobile">Jesús Eduardo Fonseca Hernández</p>
+						<p data-profile-property="upn">jefh15@hotmail.com</p>
+					</div>
+				</div>
+				<ul class="padding-block-xs">
+					<li class="padding-bottom-xs">
+						<a data-profile-property="profileUrl" class="font-size-sm" data-bi-name="site-header-user-profile" href="https://learn.microsoft.com/es-es/users/me/activity/">
+							Perfil
+						</a>
+					</li>
+					
+					<li>
+						<a data-profile-property="settingsUrl" class="font-size-sm" data-bi-name="site-header-user-settings" href="https://learn.microsoft.com/es-es/users/me/settings/">
+							Configuración
+						</a>
+					</li>
+				</ul>
+				<div class="border-top padding-top-xs">
+					<a class="docs-sign-out font-size-sm" href="#" data-bi-name="site-header-sign-out-mobile" data-test-id="site-header-user-sign-out-mobile">
+						Cerrar sesión
+					</a>
+				</div>
+			</div>
+		</details>
+	<!---->
+	<!----></div>
+				<div id="ms--primary-nav" class="site-header display-none display-flex-tablet" data-bi-name="L1-header" data-test-id="primary-header"><!---->
+		<!-- MS logo -->
+		
+		<a href="https://www.microsoft.com/" aria-label="Microsoft" itemprop="url" data-bi-name="site-header-microsoft-logo" data-test-id="site-header-microsoft-logo" class="site-header-logo ">
+			
+		<svg aria-hidden="true" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" itemprop="logo" itemscope="itemscope">
+			<path d="M11.5216 0.5H0V11.9067H11.5216V0.5Z" fill="#f25022"></path>
+			<path d="M24.2418 0.5H12.7202V11.9067H24.2418V0.5Z" fill="#7fba00"></path>
+			<path d="M11.5216 13.0933H0V24.5H11.5216V13.0933Z" fill="#00a4ef"></path>
+			<path d="M24.2418 13.0933H12.7202V24.5H24.2418V13.0933Z" fill="#ffb900"></path>
+		</svg>
+	
+		</a>
+	
+
+		<!-- Divider -->
+		<div class="site-header-divider"></div>
+
+		<!-- Brand -->
+		
+		<a class="site-header-brand" itemprop="url" href="https://learn.microsoft.com/es-es/" data-bi-name="site-header-brand-learn" data-test-id="site-header-brand">
+			<span><!---->Learn<!----></span>
+		</a>
+	
+
+		<div id="ms--search-expander-wrapper" class="display-flex justify-content-space-between flex-grow-1 align-items-center overflow-x-hidden height-full">
+			<!-- Main Nav -->
+			
+		<overflow-menu class="align-self-stretch" style="display: block; overflow: hidden; width: 100%;">
+			<nav class="site-header-nav" data-bi-name="primary-nav" data-overflow-menu-container="" aria-label="Global" style="visibility: visible; overflow: hidden;">
+				<button type="button" data-overflow-menu-prev-button="" data-bi-name="site-header-btn-prev" class="button button-clear button-sm inner-focus" hidden="" aria-label="Anterior">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-chevron-left-light"></span>
+					</span>
+				</button>
+
+				
+		<ul class="display-flex gap-xxs-desktop">
+			<!---->
+			<li aria-setsize="4" aria-posinset="1">
+				<panel-controller data-bi-name="site-header-btn-1-documentation">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-1" data-test-id="site-header-panel-controller-1" style="white-space: nowrap;">
+						<span><!---->Documentación<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-1" data-bi-name="panel-1-documentation" data-test-id="site-header-panel-1">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-links">
+				<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/docs/" data-bi-name="panel-link-1-all-product-documentation">
+						Toda la documentación del producto
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/azure/?product=popular" data-bi-name="panel-link-2-azure-documentation">
+						Documentación de Azure
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/dynamics365/" data-bi-name="panel-link-3-dynamics-365-documentation">
+						Documentación de Dynamics 365
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/copilot/" data-bi-name="panel-link-4-microsoft-copilot-documentation">
+						Documentación de Microsoft Copilot
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/microsoft-365/" data-bi-name="panel-link-5-microsoft-365-documentation">
+						Documentación de Microsoft 365
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/power-platform/" data-bi-name="panel-link-6-power-platform-documentation">
+						Documentación de Power Platform
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/samples/" data-bi-name="panel-link-7-code-samples">
+						Ejemplos de código
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/troubleshoot/" data-bi-name="panel-link-8-troubleshooting-documentation">
+						Documentación de solución de problemas
+					</a>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Libre de unirse. Solicitud para asistir<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Lleve su negocio a la vanguardia de la IA.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+			<li aria-setsize="4" aria-posinset="2">
+				<panel-controller data-bi-name="site-header-btn-2-training">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-2" data-test-id="site-header-panel-controller-2" style="white-space: nowrap;">
+						<span><!---->Entrenamiento y laboratorios<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-2" data-bi-name="panel-2-training" data-test-id="site-header-panel-2">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-links">
+				<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/" data-bi-name="panel-link-1-training">
+						Todo el entrenamiento
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/browse/?products=azure" data-bi-name="panel-link-2-azure-training">
+						Aprendizaje de Azure
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/browse/?products=dynamics-365" data-bi-name="panel-link-3-dynamics-365-training">
+						Aprendizaje de Dynamics 365
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/browse/?products=ms-copilot" data-bi-name="panel-link-4-microsoft-copilot-training">
+						Aprendizaje de Microsoft Copilot
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/browse/?products=m365" data-bi-name="panel-link-5-microsoft-365-training">
+						Formación de Microsoft 365
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/browse/?products=power-platform" data-bi-name="panel-link-6-microsoft-power-platform-training">
+						Aprendizaje de Microsoft Power Platform
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/labs/" data-bi-name="panel-link-7-labs">
+						Labs
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/credentials/" data-bi-name="panel-link-8-credentials">
+						Credenciales
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/training/career-paths/" data-bi-name="panel-link-9-career-paths">
+						Rutas de carrera
+					</a>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Libre de unirse. Solicitud para asistir<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Lleve su negocio a la vanguardia de la IA.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+			<li aria-setsize="4" aria-posinset="3">
+				<panel-controller data-bi-name="site-header-btn-3-qna">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-3" data-test-id="site-header-panel-controller-3" style="white-space: nowrap;">
+						<span><!---->Preguntas y respuestas<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-3" data-bi-name="panel-3-qna" data-test-id="site-header-panel-3">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-links">
+				<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/questions/ask/" data-bi-name="panel-link-1-ask-a-question">
+						Formular una pregunta
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/tags/133/azure/" data-bi-name="panel-link-2-azure-questions">
+						Preguntas de Azure
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/tags/60/windows/" data-bi-name="panel-link-3-windows-questions">
+						Preguntas de Windows
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/tags/9/m365/" data-bi-name="panel-link-4-m365-questions">
+						Preguntas de Microsoft 365
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/tags/131/office-outlook/" data-bi-name="panel-link-5-microsoft-outlook-questions">
+						Preguntas de Microsoft Outlook
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/tags/108/office-teams/" data-bi-name="panel-link-6-microsoft-teams-questions">
+						Preguntas de Microsoft Teams
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/tags/" data-bi-name="panel-link-7-popular-tags">
+						Etiquetas populares
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="https://learn.microsoft.com/es-es/answers/questions/" data-bi-name="panel-link-8-all-questions">
+						Todas las preguntas
+					</a>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Libre de unirse. Solicitud para asistir<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Lleve su negocio a la vanguardia de la IA.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+			<li aria-setsize="4" aria-posinset="4">
+				<panel-controller data-bi-name="site-header-btn-4-topics">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-4" data-test-id="site-header-panel-controller-4" style="white-space: nowrap;">
+						<span><!---->Temas<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-4" data-bi-name="panel-4-topics" data-test-id="site-header-panel-4">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-cards">
+				<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-1-ai">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/ai/">
+								Inteligencia artificial
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Centro de aprendizaje para crear aptitudes de inteligencia artificial<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-2-compliance">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/compliance/">
+								Cumplimiento normativo
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Recursos de cumplimiento que necesita para empezar a trabajar con su empresa<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-3-devops">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/devops/">
+								DevOps
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Procedimientos de DevOps, control de versiones de Git y métodos agile<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-4-microsoft-learn-for-organizations">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/training/organizations/">
+								Capacitación para organizaciones
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Ofertas seleccionadas de Microsoft para aumentar las aptitudes técnicas de su equipo<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-5-platform-engineering">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/platform-engineering/">
+								Ingeniería de plataformas
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Herramientas de Microsoft y otras para crear experiencias de desarrollador personalizadas<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-6-security">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/security/">
+								Seguridad
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Instrucciones para ayudarle a abordar los desafíos de seguridad<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-7-assessments">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/assessments/">
+								Valoraciones
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Guía interactiva con recomendaciones personalizadas<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-8-student-hub">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/training/student-hub/">
+								Centro de estudiantes
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Aprendizaje autodirigido e interactivo para estudiantes<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-9-educator-center">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="https://learn.microsoft.com/es-es/training/educator-center/">
+								Centro de educadores
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Recursos para que los educadores traigan innovación técnica en su aula<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Libre de unirse. Solicitud para asistir<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Lleve su negocio a la vanguardia de la IA.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+		</ul>
+	
+
+				<button type="button" data-overflow-menu-next-button="" data-bi-name="site-header-btn-next" class="button button-clear button-sm inner-focus margin-left-auto" hidden="" aria-label="Siguientes">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-chevron-right-light"></span>
+					</span>
+				</button>
+			</nav>
+		</overflow-menu>
+	
+
+			<!-- Search -->
+			
+		<search-expander data-test-id="site-header-search" class="flex-grow-1 margin-left-xxs">
+			<div hidden="" id="ms--site-header-search" class="display-flex align-items-center gap-xxs ">
+				
+		<form class="flex-grow-1" method="GET" role="search" id="ms--site-header-search-form" data-bi-name="site-header-search-form" name="site-header-search-form" aria-label="Buscar" action="/es-es/search/">
+			<div class="autocomplete display-block" data-bi-name="autocomplete"><!---->
+			<div class="field-body control ">
+				<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" id="site-header-search-autocomplete-input" data-test-id="site-header-search-autocomplete-input" class="autocomplete-input input input-sm
+						
+						width-full" type="search" name="terms" aria-expanded="false" aria-owns="ax-0-listbox" aria-controls="ax-0-listbox" aria-activedescendant="" aria-label="Buscar" aria-describedby="ms--site-header-search-autocomplete-input-description" placeholder="Buscar" data-bi-name="site-header-search-autocomplete-input" pattern=".*">
+
+				
+				
+
+				<span hidden="" id="ms--site-header-search-autocomplete-input-description">
+					Las sugerencias se filtrarán a medida que escriba
+				</span>
+			</div>
+
+			<ul role="listbox" id="ax-0-listbox" data-test-id="site-header-search-autocomplete-input-listbox" class="autocomplete-suggestions is-vertically-scrollable padding-xxs " aria-label="Sugerencias" hidden="">
+				
+				
+			</ul>
+		<!----></div>
+			<!-- mobile safari will not dispatch submit event unless there's a submit button that is not display:none -->
+			<button type="submit" class="visually-hidden" tabindex="-1" aria-hidden="true"></button>
+			<input name="category" hidden="" value="Show">
+			
+			
+		</form>
+	
+				<button data-search-expander-trigger-close="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search" aria-label="Cerrar búsqueda" data-bi-name="site-header-search-close" data-test-id="site-header-search-close">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-navigate-close"></span>
+					</span>
+				</button>
+			</div>
+			<button data-search-expander-trigger-open="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search" aria-label="Abrir búsqueda" data-bi-name="site-header-search-open" data-test-id="site-header-search-open">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-search"></span>
+				</span>
+			</button>
+		</search-expander>
+	
+		</div>
+
+		<!-- User avatar/Sign in -->
+		<!---->
+		<a href="#" data-bi-name="site-header-sign-in" data-test-id="site-header-sign-in" class="link-button font-size-sm flex-shrink-0 docs-sign-in auth-status-determined not-authenticated ">
+			Iniciar sesión
+		</a>
+	 
+		<details data-bi-name="site-header-user" class="popover popover-right auth-status-determined authenticated ">
+			<summary data-bi-name="site-header-user-avatar" aria-label="Su cuenta" data-test-id="site-header-user">
+				<div class="persona ">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarThumbnailUrl" src="data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='64' class='font-weight-bold' style='font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial' width='64'%3E%3Ccircle fill='hsl(0, 36%, 10%)' cx='32' cy='32' r='32' /%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFF' %3EJS%3C/text%3E%3C/svg%3E">
+					</figure>
+				</div>
+			</summary>
+			<div class="popover-content width-auto" data-bi-name="site-header-user-menu">
+				<div class="persona ">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarUrl" aria-labelledby="ms--user-display-name" src="data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' height='64' class='font-weight-bold' style='font: 600 30.11764705882353px &quot;SegoeUI&quot;, Arial' width='64'%3E%3Ccircle fill='hsl(0, 36%, 10%)' cx='32' cy='32' r='32' /%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFF' %3EJS%3C/text%3E%3C/svg%3E">
+					</figure>
+					<div class="persona-details" data-test-id="persona-detail">
+						<p class="persona-name" data-profile-property="displayName" id="ms--user-display-name">Jesús Eduardo Fonseca Hernández</p>
+						<p data-profile-property="upn">jefh15@hotmail.com</p>
+					</div>
+				</div>
+				<ul class="padding-block-xs">
+					<li class="padding-bottom-xs">
+						<a data-profile-property="profileUrl" class="font-size-sm" data-bi-name="site-header-user-profile" href="https://learn.microsoft.com/es-es/users/me/activity/">
+							Perfil
+						</a>
+					</li>
+					
+					<li>
+						<a data-profile-property="settingsUrl" class="font-size-sm" data-bi-name="site-header-user-settings" href="https://learn.microsoft.com/es-es/users/me/settings/">
+							Configuración
+						</a>
+					</li>
+				</ul>
+				<div class="border-top padding-top-xs">
+					<a class="docs-sign-out font-size-sm" href="#" data-bi-name="site-header-sign-out" data-test-id="site-header-user-sign-out">
+						Cerrar sesión
+					</a>
+				</div>
+			</div>
+		</details>
+	<!---->
+	<!----></div>
+				<div id="ms--secondary-nav" class="display-none display-flex-tablet" data-bi-name="L2-header" data-test-id="secondary-header"><!----><div class="site-header width-full"><!----> 
+		<a class="site-header-brand font-size-h6 padding-inline-none margin-right-xxs" itemprop="url" href="https://learn.microsoft.com/es-es/shows/" data-bi-name="secondary-nav-link-category-shows">
+			<span>
+				Qué muestra
+				
+			</span>
+		</a>
+	 
+		
+		<nav class="site-header-nav width-auto" data-bi-name="secondary-nav" aria-label="Sitio">
+			<ul class="display-flex">
+				<!---->
+		<li class="dropdown">
+			<button type="button" aria-expanded="false" class="dropdown-trigger site-header-button  site-header-button-icon-chevron" aria-controls="bx-4" data-bi-name="secondary-nav-btn-1-popular-shows" value="undefined">
+				<span><!---->Programas populares<!----></span>
+				<span aria-hidden="true" class="icon expanded-indicator ">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<ul class="dropdown-menu padding-bottom-xxs background-color-body-medium" id="bx-4" aria-label="Programas populares" data-bi-name="secondary-nav-menu-1-popular-shows">
+				<!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/data-exposed/" data-bi-name="secondary-nav-link-1-data-exposed">
+						<span><!---->Exposición de datos<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/azure-essentials-show/" data-bi-name="secondary-nav-link-2-azure-essentials-shows">
+						<span><!---->Azure Essentials Muestra<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/mastering-copilot-studio/" data-bi-name="secondary-nav-link-3-mastering-copilot-studio">
+						<span><!---->Dominando Copilot Studio<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/fabric-tech-talk-fridays/" data-bi-name="secondary-nav-link-4-fabric-tech-talk-fridays">
+						<span><!---->Fabric Charlas de Tecnología los viernes<!----></span>
+					</a>
+				</li>
+		  <!---->
+			</ul>
+		</li>
+	<!---->
+				<li>
+					<a data-test-id="header-link-examinar-todos-los-programas" class="has-external-link-indicator site-header-button " href="https://learn.microsoft.com/es-es/shows/browse?show_type=show" data-bi-name="secondary-nav-link-2-browse-all-shows">
+						<span><!---->Examinar todos los programas<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a data-test-id="header-link-examinar-todas-las-series" class="has-external-link-indicator site-header-button " href="https://learn.microsoft.com/es-es/shows/browse?show_type=series" data-bi-name="secondary-nav-link-3-browse-all-series">
+						<span><!---->Examinar todas las series<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a data-test-id="header-link-examinar-todos-los-eventos" class="has-external-link-indicator site-header-button " href="https://learn.microsoft.com/es-es/shows/browse?show_type=event" data-bi-name="secondary-nav-link-4-browse-all-events">
+						<span><!---->Examinar todos los eventos<!----></span>
+					</a>
+				</li>
+		  <!---->
+		<li class="dropdown" hidden="">
+			<button type="button" aria-expanded="false" class="dropdown-trigger site-header-button  site-header-button-icon-chevron" aria-controls="bx-5" data-bi-name="secondary-nav-btn-more" value="undefined">
+				<span><!---->Más<!----></span>
+				<span aria-hidden="true" class="icon expanded-indicator ">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<ul class="dropdown-menu padding-bottom-xxs background-color-body-medium" id="bx-5" aria-label="Más" data-bi-name="secondary-nav-menu-more">
+				<!---->
+		<li class="dropdown" hidden="">
+			<button type="button" aria-expanded="false" class="dropdown-trigger site-header-button  width-full justify-content-space-between padding-inline-xs padding-block-xxs" aria-controls="bx-6" data-bi-name="secondary-nav-btn-1-popular-shows" value="undefined">
+				<span><!---->Programas populares<!----></span>
+				<span aria-hidden="true" class="icon  margin-left-xs">
+					<span class="docon docon-chevron-right-light"></span>
+				</span>
+			</button>
+			<ul class="dropdown-menu padding-bottom-xxs background-color-body-medium" id="bx-6" aria-label="Programas populares" data-bi-name="secondary-nav-menu-1-popular-shows">
+				<!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/data-exposed/" data-bi-name="secondary-nav-link-1-data-exposed">
+						<span><!---->Exposición de datos<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/azure-essentials-show/" data-bi-name="secondary-nav-link-2-azure-essentials-shows">
+						<span><!---->Azure Essentials Muestra<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/mastering-copilot-studio/" data-bi-name="secondary-nav-link-3-mastering-copilot-studio">
+						<span><!---->Dominando Copilot Studio<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/fabric-tech-talk-fridays/" data-bi-name="secondary-nav-link-4-fabric-tech-talk-fridays">
+						<span><!---->Fabric Charlas de Tecnología los viernes<!----></span>
+					</a>
+				</li>
+		  <!---->
+			</ul>
+		</li>
+	<!---->
+				<li hidden="">
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/browse?show_type=show" data-bi-name="secondary-nav-link-2-browse-all-shows">
+						<span><!---->Examinar todos los programas<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li hidden="">
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/browse?show_type=series" data-bi-name="secondary-nav-link-3-browse-all-series">
+						<span><!---->Examinar todas las series<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li hidden="">
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="https://learn.microsoft.com/es-es/shows/browse?show_type=event" data-bi-name="secondary-nav-link-4-browse-all-events">
+						<span><!---->Examinar todos los eventos<!----></span>
+					</a>
+				</li>
+		  <!---->
+			</ul>
+		</li>
+	<!---->
+			</ul>
+		</nav>
+	
+		<span class="nav-bar-spacer"></span>
+		 
+	 <!----></div><!----></div>
+			</div>
+			
+		<!-- banner -->
+		<div data-banner="">
+			<div id="disclaimer-holder"><!---->
+			<section data-dismissable="disappearing" data-bi-name="banner" class=" banner">
+				<div class="banner-content uhf-container display-flex align-items-center">
+					<div class="level justify-content-flex-start margin-bottom-none">
+						<div class="level-left flex-shrink-1">
+							<div class="level-item flex-shrink-1">
+								<p class="has-text-white-static disclaimer-title margin-block-xxs margin-right-xs has-line-height-reset">
+									<span class="icon">
+										<span class="docon docon-status-error-outline" aria-hidden="true"></span>
+									</span>
+									<span><!---->Es posible que algunas partes de este tema se traduzcan de manera automática o mediante IA.<!----></span>
+								</p>
+							</div>
+						</div>
+						
+					</div>
+					<button data-dismiss="" data-bi-name="close" type="button" class="delete position-absolute top-0 right-0 margin-xxs delete-lg">
+						<span class="visually-hidden"><!---->Descartar alerta<!----></span>
+					</button>
+				</div>
+			</section>
+		<!----></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 
+
+				<main id="main" role="main" class="layout-body-main " data-bi-name="content" lang="es-es" dir="ltr">
+					
+			<div data-main-column="" class="">
+				<div class="">
+					
+		<div id="article-header" class="background-color-body display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between uhf-container">
+				
+		<details id="article-header-breadcrumbs-overflow-popover" class="popover" data-for="article-header-breadcrumbs" hidden="">
+			<summary class="button button-clear button-primary button-sm inner-focus" aria-label="Todas las rutas de navegación">
+				<span class="icon">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none"><!---->
+				<nav>
+					<ol class="list-style-none">
+						<!---->
+									<li class="line-clamp-1">
+										<a class="display-block inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/es-es/">
+											Learn
+										</a>
+									</li>
+								<!----><!---->
+									<li class="line-clamp-1">
+										<a class="display-block inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/es-es/shows">
+											Programa
+										</a>
+									</li>
+								<!----><!---->
+									<li class="line-clamp-1">
+										<a class="display-block inner-focus padding-inline-xs padding-block-xxs border-radius font-size-sm" href="https://learn.microsoft.com/es-es/shows/intro-to-python-development/index">
+											Python para principiantes
+										</a>
+									</li>
+								<!---->
+					</ol>
+				</nav>
+				
+			<!----></div>
+		</details>
+
+		<bread-crumbs id="article-header-breadcrumbs" role="group" aria-label="Rutas de navegación" data-test-id="article-header-breadcrumbs" class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs" style="display: block; white-space: nowrap; overflow: hidden;"><!---->
+				<nav>
+					<ol class="breadcrumbs">
+						<!---->
+									<li data-test-id="breadcrumbs-item-link" class="breadcrumbs-item" data-bread-crumbs-collapse-target="">
+										<a href="https://learn.microsoft.com/es-es/"> Learn </a>
+									</li>
+								<!----><!---->
+									<li data-test-id="breadcrumbs-item-link" class="breadcrumbs-item" data-bread-crumbs-collapse-target="">
+										<a href="https://learn.microsoft.com/es-es/shows"> Programa </a>
+									</li>
+								<!----><!---->
+									<li data-test-id="breadcrumbs-item-link" class="breadcrumbs-item" data-bread-crumbs-collapse-target="" style="">
+										<a href="https://learn.microsoft.com/es-es/shows/intro-to-python-development/index" style=""> Python para principiantes </a>
+									</li>
+								<!---->
+					</ol>
+				</nav>
+			<!----></bread-crumbs>
+	 
+		<div id="article-header-page-actions" class="margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch">
+			  
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary class="justify-content-flex-start button button-clear button-sm button-primary inner-focus customToolTipDisabled" aria-label="Más acciones" title="Más acciones">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					 
+		<a id="lang-link-overflow" class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left customToolTipDisabled" data-bi-name="language-toggle" data-page-action-item="overflow-all" data-check-hidden="true" data-read-in-link="" href="https://learn.microsoft.com/en-us/shows/intro-to-python-development/python-for-beginners-2-of-44-introducing-python" title="Leer en inglés" data-bi="{&quot;cN&quot;:&quot;language-toggle&quot;,&quot;value&quot;:&quot;off&quot;}">
+			<span class="icon" aria-hidden="true" data-read-in-link-icon="">
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text="">Leer en inglés</span>
+		</a>
+	 
+		<button type="button" class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus customToolTipDisabled" data-list-type="collection" data-bi-name="collection" data-page-action-item="overflow-all" data-check-hidden="true" data-popover-close="" data-pressed="false" title="Agregar Python para principiantes [2 de 44] Introducción a Python | Microsoft Learn a una colección">
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Agregar a colecciones</span>
+		</button>
+	
+					
+		<button type="button" class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus customToolTipDisabled" data-list-type="plan" data-bi-name="plan" data-page-action-item="overflow-all" data-check-hidden="true" data-popover-close="" data-pressed="false" title="Agregar Python para principiantes [2 de 44] Introducción a Python | Microsoft Learn a un plan">
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Agregar al plan</span>
+		</button>
+	  
+					 
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	 
+					<div data-page-content="" class="content"><div class="uhf-container padding-top-lg-tablet">
+	<div class="columns">
+		<div class="column is-10">
+			<div id="video-holder" class="position-relative"><!----><div data-shaka-player-container="" shaka-controls="true" class="shaka-video-container" style="display: block; cursor: none;" role="region" aria-label="video player" tabindex="-1"><video data-shaka-player="" crossorigin="anonymous" webkit-playsinline="" playsinline="" class="shaka-video" src="blob:https://learn.microsoft.com/173de868-0452-4b41-a5f3-15ccfab81f4b"></video><canvas class="shaka-canvas-container" aria-hidden="true"></canvas><canvas class="shaka-vr-canvas-container"></canvas><div class="shaka-controls-container" style="position: fixed;"><div class="shaka-scrim-container"></div><div class="shaka-play-button-container"><button type="button" class="shaka-play-button shaka-no-propagation customToolTipDisabled" icon="pause" aria-label="Pause" name="Play" title="Press Space or Enter for Play/Pause "></button><div class="high-contrast-play-button-bg"></div></div><div class="shaka-server-side-ad-container"></div><div class="shaka-bottom-controls shaka-no-propagation"><div class="shaka-ad-controls shaka-hidden"><div class="shaka-ad-position shaka-hidden"><span class="shaka-ad-position-span"></span></div><div class="shaka-ad-counter"><span class="shaka-ad-counter-span"></span></div><div class="shaka-skip-ad-container"><div class="shaka-skip-ad-counter shaka-hidden"></div><button type="button" class="shaka-skip-ad-button shaka-hidden shaka-no-propagation" disabled="disabled">Skip Ad</button></div></div><div class="shaka-controls-button-panel shaka-show-controls-on-mouse-over"><button class="control-button custom_rewind customToolTipDisabled" aria-label="Rewind" tabindex="0" title="Press alt plus J for ten seconds" type="button" name="Rewind" contentdescription="Press alt plus J for ten seconds" style="margin: 2px 4px; padding: 0px;"><i class="icon-light" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M4 5.63V3.75a.75.75 0 00-1.5 0v3.5c0 .41.34.75.75.75h4a.75.75 0 000-1.5H5.23A6.3 6.3 0 0110 4.25c2.4 0 4.53 1.41 5.65 3.54.15.28.43.46.73.46.54 0 .91-.53.67-1.01A7.93 7.93 0 0010 2.75a7.77 7.77 0 00-6 2.88zm4.25 5.12a.75.75 0 00-1.24-.57l-1.75 1.5a.75.75 0 10.98 1.14l.51-.44v3.87a.75.75 0 001.5 0v-5.5zM15 13.5c0 1.93-.63 3.5-2.5 3.5-1.88 0-2.5-1.57-2.5-3.5s.63-3.5 2.5-3.5c1.88 0 2.5 1.57 2.5 3.5zm-1.5 0c0-.85-.15-1.4-.32-1.69a.59.59 0 00-.22-.22.94.94 0 00-.46-.09.94.94 0 00-.46.09.59.59 0 00-.22.22c-.17.3-.32.84-.32 1.69s.15 1.4.32 1.69c.08.12.15.18.22.22.07.04.2.09.46.09s.39-.05.46-.09c.07-.04.14-.1.22-.22.17-.3.32-.84.32-1.69z"></path></svg></i><span aria-hidden="true">Rewind</span></button><button type="button" class="shaka-small-play-button material-icons-round shaka-tooltip customToolTipDisabled" aria-label="Pause" name="Play" title="Press Space or Enter for Play/Pause" style="margin: 2px 4px; padding: 0px; font-size: 23px; width: 23px;">pause</button><button class="control-button forward customToolTipDisabled" aria-label="Forward" tabindex="0" title="Press alt plus L for ten seconds" type="button" name="Forward" contentdescription="Press alt plus L for ten seconds" style="margin: 2px 4px; padding: 0px;"><i class="icon-light" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M15.73 5.63V3.75a.75.75 0 011.5 0v3.5c0 .41-.33.75-.75.75h-4a.75.75 0 010-1.5h2.03a6.3 6.3 0 00-4.78-2.25 6.45 6.45 0 00-5.65 3.54.83.83 0 01-.73.46c-.54 0-.91-.53-.67-1.01a7.93 7.93 0 017.05-4.49c2.4 0 4.54 1.12 6 2.88zM12.5 17c1.88 0 2.5-1.57 2.5-3.5s-.62-3.5-2.5-3.5c-1.87 0-2.5 1.57-2.5 3.5s.63 3.5 2.5 3.5zm.68-1.81a.59.59 0 01-.22.22.94.94 0 01-.46.09.94.94 0 01-.46-.09.59.59 0 01-.22-.22 3.38 3.38 0 01-.32-1.69c0-.85.15-1.4.32-1.69a.59.59 0 01.22-.22c.07-.04.2-.09.46-.09s.4.05.46.09c.07.04.14.1.22.22.18.3.32.84.32 1.69s-.14 1.4-.32 1.69zm-4.93-4.44a.75.75 0 00-1.24-.57l-1.75 1.5a.75.75 0 10.98 1.14l.51-.44v3.87a.75.75 0 001.5 0v-5.5z"></path></svg></i><span aria-hidden="true">Forward</span></button><span class="shaka-current-time" disabled="true" style="margin: 2px 4px; padding: 0px; font-size: 14px;" aria-hidden="true">01:20 / 03:09</span><div class="shaka-spacer" aria-hidden="true" style="margin: 2px 4px; padding: 0px;"></div><button type="button" class="shaka-mute-button material-icons-round shaka-tooltip customToolTipDisabled" aria-label="Mute" title="Press Alt + M or M for Mute/Unmute" style="margin: 2px 4px; padding: 0px; font-size: 23px; width: 23px;" aria-expanded="false">volume_up</button><div class="volumeSlider-Submenu vertical" role="presentation" style="top: 622px; left: 484px;"><div class="shaka-range-container shaka-volume-bar-container" style="background: linear-gradient(to right, rgb(255, 255, 255) 100%, rgba(255, 255, 255, 0.54) 100%, rgba(255, 255, 255, 0.54) 100%);"><input class="shaka-range-element shaka-volume-bar" type="range" step="5" min="0" max="100" aria-label="Volume" aria-valuetext="Volume level is 100 percent." value="100"></div></div><button class="control-button searchable_captions customToolTipDisabled" aria-label="Searchable transcript" tabindex="0" title="Searchable transcript" aria-haspopup="true" type="button" aria-expanded="false" style="margin: 2px 4px; padding: 0px;"><i class="icon-light" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M8.5 3a5.5 5.5 0 014.23 9.02l4.12 4.13a.5.5 0 01-.63.76l-.07-.06-4.13-4.12A5.5 5.5 0 118.5 3zm0 1a4.5 4.5 0 100 9 4.5 4.5 0 000-9z"></path></svg></i><span aria-hidden="true">Searchable transcript</span><div class="shaka-submenu custom-button" role="presentation" style="padding: 3px 12px;"><ul class="search-menu-content" id="captions-full-vtt" role="menu"><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 3 seconds : &gt;&gt; Está bien. Empecemos cavando en Python aquí." lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:03 | &gt;&gt; Está bien. Empecemos cavando en Python aquí.</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 7 seconds : Ahora, antes de ir a ninguna parte," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:07 | Ahora, antes de ir a ninguna parte,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 8 seconds : probablemente deberíamos responder a una pregunta," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:08 | probablemente deberíamos responder a una pregunta,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 11 seconds : que es, ¿qué es Python?" lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:11 | que es, ¿qué es Python?</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 13 seconds : Si vamos a hacer esta pregunta," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:13 | Si vamos a hacer esta pregunta,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 15 seconds : debemos, por supuesto, responder con una cita de Wikipedia." lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:15 | debemos, por supuesto, responder con una cita de Wikipedia.</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 18 seconds : Así que Python es" lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:18 | Así que Python es</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 19 seconds : un general de alto nivel interpretado lenguaje de programación de propósito" lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:19 | un general de alto nivel interpretado lenguaje de programación de propósito</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 22 seconds : creado por Guido," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:22 | creado por Guido,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 24 seconds : y lanzado por primera vez en 1991." lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:24 | y lanzado por primera vez en 1991.</span></li></ul><div class="element-container" style="text-align: left;line-height: 15px;margin-top: 0.1em;"><label class="text-white-text-center" for="textToFind" aria-label="Search Captions" style="font-size: 12px;text-align: left !important;">Search Captions</label><div class="text-border" style="border-bottom: 1px solid #e5e5e5;margin-bottom: 0.5em;width: 38%;"></div></div><span class="shaka-hidden" id="content">Search
+ captions. 65 results are available. Start typing to search a caption, 
+then press Tab and use up and down arrows to navigate.</span><input class="text-to-find" id="textToFind" tabindex="0" placeholder="Search captions" autocomplete="off" aria-labelledby="content"></div></button><button class="control-button language_custom_scrub_menu shaka-hidden customToolTipDisabled" aria-label="Audio Languages" tabindex="0" title="Audio Languages" aria-haspopup="true" type="button" aria-expanded="false" style="margin: 2px 4px; padding: 0px;"><i class="icon-light"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0-15c.66 0 1.4.59 2.02 1.9.22.47.4 1.01.56 1.6H7.42c.15-.59.34-1.13.56-1.6C8.59 3.6 9.34 3 10 3zM7.07 4.49c-.27.59-.5 1.27-.68 2.01H3.94A7.02 7.02 0 017.7 3.38c-.24.33-.45.7-.64 1.1zM6.2 7.5a15.97 15.97 0 000 5H3.46a6.98 6.98 0 010-5h2.73zm.2 6c.17.74.4 1.42.68 2.01.19.4.4.78.64 1.1a7.02 7.02 0 01-3.77-3.11h2.45zm1.03 0h5.16a9.25 9.25 0 01-.56 1.6C11.41 16.4 10.66 17 10 17c-.66 0-1.4-.59-2.02-1.9-.22-.47-.4-1.01-.56-1.6zm5.37-1H7.21a14.87 14.87 0 010-5h5.58a14.86 14.86 0 010 5zm.82 1h2.45a7.02 7.02 0 01-3.77 3.12c.24-.33.45-.7.64-1.1.27-.6.5-1.28.68-2.02zm2.93-1h-2.73a15.97 15.97 0 000-5h2.73a6.98 6.98 0 010 5zm-4.25-9.12a7.02 7.02 0 013.77 3.12h-2.45a10.5 10.5 0 00-.68-2.01c-.19-.4-.4-.78-.64-1.1z"></path></svg></i><span aria-hidden="true">Audio Languages</span><div class="shaka-submenu custom-button" style="padding: 3px 11px;" aria-label="languages Expanded"></div></button><button class="control-button ios-caption-btn customToolTipDisabled" aria-label="Captions enabled" title="Captions" tabindex="0" style="margin: 2px 4px; padding: 0px;" aria-expanded="false"><i class="material-icons-round" style="font-size: 23px; width: 23px;">closed_caption</i><label class="shaka-overflow-button-label shaka-overflow-menu-only"><span>Captions</span></label></button><div class="shaka-submenu custom-button caption_submenu" style="padding: 0px; margin: 2px 4px; left: 483px; top: 160px;"><ul class="shaka-overflow-button-label shaka-menu-content" role="menu"><li class="custom-captions-back shaka-menu-item shaka-hidden customToolTipEnabled" lang="en" aria-label="Captions" tabindex="-1" role="menuitem"><div aria-hidden="true"><i><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M5 12H19M5 12L11 6M5 12L11 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">Captions</span></li><li class="custom-captions-settings shaka-menu-item customToolTipEnabled" lang="en" aria-label="Settings" tabindex="-1" role="menuitem"><div aria-hidden="true"><i><svg fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" style="width: 23px; height: 23px;"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M4,13.743l-1,.579a1,1,0,0,0-.366,1.366l1.488,2.578a1,1,0,0,0,1.366.366L6.5,18.05a1.987,1.987,0,0,1,1.986,0l.02.011a1.989,1.989,0,0,1,1,1.724V21a1,1,0,0,0,1,1h3a1,1,0,0,0,1-1V19.782a1.985,1.985,0,0,1,.995-1.721l.021-.012a1.987,1.987,0,0,1,1.986,0l1.008.582a1,1,0,0,0,1.366-.366l1.488-2.578A1,1,0,0,0,21,14.322l-1-.579a1.994,1.994,0,0,1-1-1.733v-.021a1.991,1.991,0,0,1,1-1.732l1-.579a1,1,0,0,0,.366-1.366L19.876,5.734a1,1,0,0,0-1.366-.366L17.5,5.95a1.987,1.987,0,0,1-1.986,0L15.5,5.94a1.989,1.989,0,0,1-1-1.724V3a1,1,0,0,0-1-1h-3a1,1,0,0,0-1,1V4.294A1.856,1.856,0,0,1,8.57,5.9l-.153.088a1.855,1.855,0,0,1-1.853,0L5.49,5.368a1,1,0,0,0-1.366.366L2.636,8.312A1,1,0,0,0,3,9.678l1,.579A1.994,1.994,0,0,1,5,11.99v.021A1.991,1.991,0,0,1,4,13.743ZM12,9a3,3,0,1,1-3,3A3,3,0,0,1,12,9Z"></path></g></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">Settings</span></li><li class="shaka-menu-item caption_offbtn customToolTipEnabled" role="menuitem" tabindex="-1" lang="en" aria-labelledby="span-captionid-Off"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">Off</span><span class="shaka-hidden" id="span-captionid-Off">Off</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="cs-cz" captioncode="cs-cz" originaltextid="" aria-labelledby="span-captionid-Čeština"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="cs-cz">Čeština</span><span class="shaka-hidden" id="span-captionid-Čeština">Čeština</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="de-de" captioncode="de-de" originaltextid="" aria-labelledby="span-captionid-Deutsch"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="de-de">Deutsch</span><span class="shaka-hidden" id="span-captionid-Deutsch">Deutsch</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="en-us" captioncode="en-us" originaltextid="" aria-labelledby="span-captionid-English(UnitedStates)"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="en-us">English (United States)</span><span class="shaka-hidden" id="span-captionid-English(UnitedStates)">English (United States)</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="es-es" captioncode="es-es" originaltextid="" aria-labelledby="span-caption-Español(España)" aria-checked="true" aria-live="off" aria-busy="true"><div aria-hidden="true"><i class="icon-light"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="es-es">Español (España)</span><span id="span-caption-Español(España)" class="shaka-hidden">Selected Español(España)</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="fr-fr" captioncode="fr-fr" originaltextid="" aria-labelledby="span-captionid-Français"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="fr-fr">Français</span><span class="shaka-hidden" id="span-captionid-Français">Français</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="it-it" captioncode="it-it" originaltextid="" aria-labelledby="span-captionid-Italiano"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="it-it">Italiano</span><span class="shaka-hidden" id="span-captionid-Italiano">Italiano</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="ja-jp" captioncode="ja-jp" originaltextid="" aria-labelledby="span-captionid-日本語"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="ja-jp">日本語</span><span class="shaka-hidden" id="span-captionid-日本語">日本語</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="ko-kr" captioncode="ko-kr" originaltextid="" aria-labelledby="span-captionid-한국어"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="ko-kr">한국어</span><span class="shaka-hidden" id="span-captionid-한국어">한국어</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="pl-pl" captioncode="pl-pl" originaltextid="" aria-labelledby="span-captionid-Polski"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="pl-pl">Polski</span><span class="shaka-hidden" id="span-captionid-Polski">Polski</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="pt-pt" captioncode="pt-pt" originaltextid="" aria-labelledby="span-captionid-Português(Portugal)"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="pt-pt">Português (Portugal)</span><span class="shaka-hidden" id="span-captionid-Português(Portugal)">Português (Portugal)</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="ru-ru" captioncode="ru-ru" originaltextid="" aria-labelledby="span-captionid-Русский"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="ru-ru">Русский</span><span class="shaka-hidden" id="span-captionid-Русский">Русский</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="tr-tr" captioncode="tr-tr" originaltextid="" aria-labelledby="span-captionid-Türkçe"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="tr-tr">Türkçe</span><span class="shaka-hidden" id="span-captionid-Türkçe">Türkçe</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="zh-cn" captioncode="zh-cn" originaltextid="" aria-labelledby="span-captionid-中文(简体)"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="zh-cn">中文 (简体)</span><span class="shaka-hidden" id="span-captionid-中文(简体)">中文 (简体)</span></li><li class="shaka-menu-item Track_caption_option customToolTipEnabled" role="menuitem" tabindex="-1" lang="zh-tw" captioncode="zh-tw" originaltextid="" aria-labelledby="span-captionid-中文(繁體)"><div aria-hidden="true"><i class="icon-light hidden"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="width: 23px; height: 23px;"><path d="M3.37 10.17a.5.5 0 00-.74.66l4 4.5c.19.22.52.23.72.02l10.5-10.5a.5.5 0 00-.7-.7L7.02 14.27l-3.65-4.1z"></path></svg></i></div><span class="ariaHiddenDisplay" aria-hidden="true" lang="zh-tw">中文 (繁體)</span><span class="shaka-hidden" id="span-captionid-中文(繁體)">中文 (繁體)</span></li></ul></div><button type="button" class="shaka-overflow-button shaka-playbackrate-button shaka-tooltip-status control-button customToolTipDisabled" aria-label="Playback speed" shaka-status="1x" style="margin: 2px 4px; padding: 0px;" title="Playback speed" aria-haspopup="true" aria-expanded="false"><i class="material-icons-round" style="font-size: 23px; width: 23px;" aria-hidden="true">slow_motion_video</i><label class="shaka-overflow-button-label shaka-overflow-menu-only"><span id="spanPlaybackspeedTitle">Playback speed</span><span class="shaka-current-selection-span" id="spanPlaybackspeedValue">1x</span></label><div class="shaka-no-propagation shaka-show-controls-on-mouse-over shaka-settings-menu shaka-hidden shaka-playback-rates control-button" role="menu" style="bottom: 60px; justify-content: start; max-height: 70%;"><button type="button" class="shaka-back-to-overflow-button" aria-label="Playback speed" role="menuitem"><i class="material-icons-round" aria-hidden="true" style="font-size: 23px;">arrow_back</i><span>Playback speed</span></button><button type="button" title="2x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>2x</span></button><button type="button" title="1.75x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>1.75x</span></button><button type="button" title="1.5x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>1.5x</span></button><button type="button" title="1.25x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>1.25x</span></button><button type="button" title="1x" aria-checked="true" role="menuitemradio" aria-labelledby="span-playback-1x" aria-live="off" class="customToolTipDisabled" aria-selected="true"><span class="shaka-chosen-item">1x</span><span id="span-playback-1x" class="shaka-hidden">Selected</span><i class="material-icons-round shaka-chosen-item" aria-hidden="true">done</i></button><button type="button" title="0.75x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>0.75x</span></button><button type="button" title="0.5x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>0.5x</span></button></div></button><button type="button" class="shaka-overflow-menu-button shaka-no-propagation material-icons-round shaka-tooltip customToolTipDisabled" aria-label="More settings" title="More settings" aria-haspopup="true" aria-expanded="false" style="margin: 2px 4px; padding: 0px; font-size: 23px; width: 23px;">settings</button><button type="button" class="shaka-fullscreen-button material-icons-round shaka-tooltip customToolTipDisabled" aria-label="Full screen" title="Press Alt + Enter for Full Screen" style="margin: 2px 4px; padding: 0px; font-size: 23px; width: 23px;">fullscreen</button><div class="shaka-caption-settings-submenu hidden" role="dialog" aria-modal="true" aria-label="Caption Settings" aria-describedby="Caption Settings content" style="margin: 2px 4px; padding: 0px;"><div class="close-container"><div class="close-btn text-white customToolTipDisabled" aria-label="Close" title="Close" tabindex="0" role="button">X</div></div><div class="caption-settings-container"><h2 class="heading-container">Caption Settings</h2><div class="items-container"><div class="left-container"><div class="element-container"><div class="option-container" id="captions-foreground-text-color"><label class="text-white text-center" for="captions-foreground-color-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Text Color</label><div class="text-border"></div><select type="select" id="captions-foreground-color-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-foreground-color" class="a8efc-3042-6bc9-b4b6-71e9906b85c8" style="margin-bottom: 1em;"><option value="rgba(255, 255, 255, {0})" selected="selected">White</option><option value="rgba(0, 0, 0, {0})">Black</option><option value="rgba(255, 0, 0, {0})">Red</option><option value="rgba(0, 255, 0, {0})">Green</option><option value="rgba(0, 0, 255, {0})">Blue</option><option value="rgba(255, 255, 0, {0})">Yellow</option><option value="rgba(255, 0, 255, {0})">Magenta</option><option value="rgba(0, 255, 255, {0})">Cyan</option></select><label class="text-white text-center" for="captions-foreground-opacity-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Opacity</label><div class="text-border"></div><select type="select" id="captions-foreground-opacity-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-foreground-opacity" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="1" selected="selected">Opaque</option><option value="0.5">Semi-Opaque</option></select></div></div><div class="element-container"><div class="option-container" id="captions-background-text-color"><label class="text-white text-center" for="captions-background-color-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Background Color</label><div class="text-border"></div><select type="select" id="captions-background-color-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-background-color" class="a8efc-3042-6bc9-b4b6-71e9906b85c8" style="margin-bottom: 1em;"><option value="rgba(255, 255, 255, {0})">White</option><option value="rgba(0, 0, 0, {0})" selected="selected">Black</option><option value="rgba(255, 0, 0, {0})">Red</option><option value="rgba(0, 255, 0, {0})">Green</option><option value="rgba(0, 0, 255, {0})">Blue</option><option value="rgba(255, 255, 0, {0})">Yellow</option><option value="rgba(255, 0, 255, {0})">Magenta</option><option value="rgba(0, 255, 255, {0})">Cyan</option></select><label class="text-white text-center" for="captions-window-opacity-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Opacity</label><div class="text-border"></div><select type="select" id="captions-background-opacity-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-background-opacity" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="1" selected="selected">Opaque</option><option value="0.5">Semi-Transparent</option><option value="0">Transparent</option></select></div></div><div class="element-container"><div class="option-container" id="captions-window-text-color"><label class="text-white text-center" for="captions-window-color-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Window Color</label><div class="text-border"></div><select type="select" id="captions-window-color-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-window-color" class="a8efc-3042-6bc9-b4b6-71e9906b85c8" style="margin-bottom: 1em;"><option value="rgba(255, 255, 255, {0})">White</option><option value="rgba(0, 0, 0, {0})" selected="selected">Black</option><option value="rgba(255, 0, 0, {0})">Red</option><option value="rgba(0, 255, 0, {0})">Green</option><option value="rgba(0, 0, 255, {0})">Blue</option><option value="rgba(255, 255, 0, {0})">Yellow</option><option value="rgba(255, 0, 255, {0})">Magenta</option><option value="rgba(0, 255, 255, {0})">Cyan</option></select><label class="text-white text-center" for="captions-window-opacity-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Opacity</label><div class="text-border"></div><select type="select" id="captions-window-opacity-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-window-opacity" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="1" selected="selected">Opaque</option><option value="0.5">Semi-Transparent</option><option value="0">Transparent</option></select></div></div></div><div class="right-container"><div class="element-container"><label class="text-white text-center" for="captions-font-size-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Font Size</label><div class="text-border"></div><select type="select" id="captions-font-size-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-font-size" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="50%">50%</option><option value="75%">75%</option><option value="100%" selected="selected">100%</option><option value="125%">125%</option><option value="150%">150%</option><option value="175%">175%</option><option value="200%">200%</option><option value="300%">300%</option><option value="400%">400%</option></select></div><div class="element-container"><label class="text-white text-center" for="captions-edge-style-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Text Edge Style</label><div class="text-border"></div><select type="select" id="captions-edge-style-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-edge-style" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="none" selected="selected">None</option><option value="rgb(34, 34, 34) 1px 1px 0px, rgb(34, 34, 34) 2px 2px 0px, rgb(34, 34, 34) 3px 3px 0px">Raised</option><option value="rgb(204, 204, 204) 1px 1px 0px, rgb(204, 204, 204) 0px 1px 0px, rgb(34, 34, 34) -1px -1px 0px, rgb(34, 34, 34) 0px -1px 0px">Depressed</option><option value="rgb(34, 34, 34) 0px 0px 4px, rgb(34, 34, 34) 0px 0px 4px, rgb(34, 34, 34) 0px 0px 4px, rgb(34, 34, 34) 0px 0px 4px">Uniform</option><option value="rgb(34, 34, 34) 2px 2px 3px, rgb(34, 34, 34) 2px 2px 4px, rgb(34, 34, 34) 2px 2px 5px">Dropshadow</option></select></div><div class="element-container"><label class="text-white text-center" for="captions-font-family-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Font Family</label><div class="text-border"></div><select type="select" id="captions-font-family-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-font-family" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="sans-serif" selected="selected">Proportional Sans-Serif</option><option value="Andale Mono, Lucida Console, monospace">Monospace Sans-Serif</option><option value="serif">Proportional Serif</option><option value="Courier New, monospace">Monospace Serif</option><option value="Comic Sans MS, Impact, fantasy">Casual</option><option value="Monotype Corsiva, cursive">Script</option><option value="small-caps">Small Caps</option></select></div><div class="element-container"><label class="text-white text-center" for="captions-text-alignment-a8efc-3042-6bc9-b4b6-71e9906b85c8" style="font-size: 12px;">Text Alignment</label><div class="text-border"></div><select type="select" id="captions-text-alignment-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-label="captions-text-alignment" class="a8efc-3042-6bc9-b4b6-71e9906b85c8"><option value="Bottom" selected="selected">Bottom</option><option value="Top">Top</option></select></div></div></div><div class="preview-container"><span>Captions Preview</span></div><div class="button-container"><button class="controls-btn" aria-label="Defaults" tabindex="0" role="button">Defaults</button><button class="controls-btn" aria-label="Done" tabindex="0" role="button">Done</button></div></div></div><div class="searchable_captions_mobile custom-button custom-button-overflow shaka-settings-menu shaka-hidden"><button class="shaka-back-to-overflow-button" aria-label="Search captions - Go back to previous menu" role="menuitem"><i class="material-icons-round" aria-hidden="true" style="font-size: 23px;">arrow_back</i><span aria-label="Search captions">Search captions</span></button><div class="shaka-submenu"><ul class="search-menu-content shaka-menu-content" id="captions-full-vtt-mobile" role="menu"><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 3 seconds : &gt;&gt; Está bien. Empecemos cavando en Python aquí." lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:03 | &gt;&gt; Está bien. Empecemos cavando en Python aquí.</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 7 seconds : Ahora, antes de ir a ninguna parte," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:07 | Ahora, antes de ir a ninguna parte,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 8 seconds : probablemente deberíamos responder a una pregunta," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:08 | probablemente deberíamos responder a una pregunta,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 11 seconds : que es, ¿qué es Python?" lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:11 | que es, ¿qué es Python?</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 13 seconds : Si vamos a hacer esta pregunta," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:13 | Si vamos a hacer esta pregunta,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 15 seconds : debemos, por supuesto, responder con una cita de Wikipedia." lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:15 | debemos, por supuesto, responder con una cita de Wikipedia.</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 18 seconds : Así que Python es" lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:18 | Así que Python es</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 19 seconds : un general de alto nivel interpretado lenguaje de programación de propósito" lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:19 | un general de alto nivel interpretado lenguaje de programación de propósito</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 22 seconds : creado por Guido," lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:22 | creado por Guido,</span></li><li class="shaka-menu-item customToolTipDisabled" role="menuitem" tabindex="-1" aria-live="off" title=" 24 seconds : y lanzado por primera vez en 1991." lang="en"><span class="ariaHiddenDisplay" aria-hidden="true" lang="en">00:00:24 | y lanzado por primera vez en 1991.</span></li></ul><div class="element-container" style="text-align: left;line-height: 15px;margin-top: 0.1em;"><label class="text-white-text-center" for="textToFind-mobile" aria-label="Search Captions" style="font-size: 12px;text-align: left !important;">Search Captions</label><div class="text-border" style="border-bottom: 1px solid #e5e5e5;margin-bottom: 0.5em;width: 38%;"></div></div><input class="text-to-find" id="textToFind-mobile" tabindex="0" placeholder="Search captions" autocomplete="off" aria-label="65 results are available. Start typing to search a caption, then press Tab and use up and down arrows to navigate."></div></div><div class="shaka-no-propagation shaka-show-controls-on-mouse-over shaka-settings-menu shaka-hidden shaka-resolutions" role="menu"><button type="button" class="shaka-back-to-overflow-button customToolTipDisabled" aria-label="Resolution" aria-labelledby="overflowspanhiddenelement" title="Resolution" role="menuitem"><i class="material-icons-round" aria-hidden="true" style="font-size: 23px;">arrow_back</i><span>Resolution</span><span aria-hidden="true" class="shaka-hidden" id="overflowspanhiddenelement">Resolution - Go back to previous menu</span></button><button type="button" class="explicit-resolution customToolTipDisabled" title="1080p" aria-checked="false" role="menuitemradio"><span>1080p</span></button><button type="button" class="explicit-resolution customToolTipDisabled" title="720p" aria-checked="false" role="menuitemradio"><span>720p</span></button><button type="button" class="explicit-resolution customToolTipDisabled" title="540p" aria-checked="false" role="menuitemradio"><span>540p</span></button><button type="button" class="explicit-resolution customToolTipDisabled" title="360p" aria-checked="false" role="menuitemradio"><span>360p</span></button><button type="button" class="explicit-resolution customToolTipDisabled" title="270p" aria-checked="false" role="menuitemradio"><span>270p</span></button><button type="button" class="explicit-resolution customToolTipDisabled" title="180p" aria-checked="false" role="menuitemradio"><span>180p</span></button><button type="button" class="shaka-enable-abr-button customToolTipDisabled" aria-selected="true" title="Auto" aria-checked="true" role="menuitemradio" aria-labelledby="span-resolution-Auto"><span class="shaka-auto-span shaka-chosen-item">Auto</span><i class="material-icons-round shaka-chosen-item" aria-hidden="true">done</i><span id="span-resolution-Auto" class="shaka-hidden">Selected</span></button></div></div><div class="shaka-range-container shaka-seek-bar-container custom-slider" style="background: linear-gradient(to right, rgb(255, 255, 255) 31.1938%, rgb(255, 255, 255) 31.1938%, rgb(255, 255, 255) 39.492%, rgba(255, 255, 255, 0.54) 39.492%, rgba(255, 255, 255, 0.54) 44.3974%, rgba(255, 255, 255, 0.3) 44.3974%);"><div class="shaka-ad-markers" aria-hidden="true"></div><input class="shaka-range-element shaka-seek-bar shaka-no-propagation shaka-show-controls-on-mouse-over" type="range" step="any" min="0" max="189.2223663330078" tabindex="-1" aria-hidden="true" value="74.72777"><div id="shaka-player-ui-thumbnail-container" aria-hidden="true" style="visibility: hidden;"><img id="shaka-player-ui-thumbnail-image" draggable="false"><div id="shaka-player-ui-thumbnail-time"></div></div><div><input class="custom-slider button" type="range" style="top: -0.9em; appearance: none; left: 39.492%; margin-left: 1.0508px;" aria-valuemin="0" aria-label="seek" tabindex="0" role="slider" aria-valuemax="189.22" aria-valuenow="74.73" aria-valuetext=" 1 minutes 20 seconds" value="53"><div class="current_slider_tooltip" aria-hidden="true"><span class="slider-tooltip" aria-hidden="true" style="bottom: 1.25em; font-size: 0.8em; left: 39.492%; margin-left: 22.0508px; opacity: 0;">01:20</span></div></div><div aria-hidden="true" class="current-time-tooltip" style="left: 13.5983%; margin-left: 1.66667em;"><span class="tooltip-text" aria-hidden="true">00:25</span></div></div></div><div class="shaka-overflow-menu shaka-no-propagation shaka-show-controls-on-mouse-over shaka-hidden" role="menu"><button class="shaka-back-to-overflowbutton customToolTipDisabled" id="overflowbackbutton" title="Back" aria-label="Back" role="menuitem" tabindex="0"><i class="material-icons-round" aria-hidden="true">arrow_back</i><span aria-label="Back">Back</span></button><button class="custom-caption-overflow shaka-hidden" id="custom-caption-overflow" aria-labelledby="spanCaptionTitle spanCaptionValue" role="menuitem"><i class="material-icons-round">closed_caption</i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span id="spanCaptionTitle">Captions</span><span class="currentlanguage" id="spanCaptionValue">Español (España)</span></label></button><button class="language_custom_menu initial-custom-overflow-button shaka-hidden" aria-label="Audio Languages" aria-labelledby="spanAudioLanguagesTitle spanAudioLanguagesValue" role="menuitem" tabindex="0"><i class="material-icons-round" aria-hidden="true">language</i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span id="spanAudioLanguagesTitle">Audio Languages</span><span class="shaka-current-selection-span" id="spanAudioLanguagesValue">Unrecognized</span></label></button><button class="searchable_captions initial-custom-overflow-button shaka-hidden customToolTipDisabled" aria-label="Search captions" title="Search captions" role="menuitem" tabindex="0"><i class="material-icons-round" aria-hidden="true">search</i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span>Search captions</span><span class="shaka-current-selection-span"></span></label></button><button type="button" class="shaka-overflow-button shaka-resolution-button shaka-tooltip-status" shaka-status="Auto" aria-label="Resolution" aria-labelledby="spanResolutionTitle spanResolutionValue" role="menuitem" tabindex="0"><i class="quality" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" style="width: 23px; height: 23px;"><title>Resolution</title><path d="M0 0h16v16h-16z" fill="none"></path><path d="M1 4h9.277a1.984 1.984 0 0 0 3.445 0h1.278a1 1 0 0 0 0-2h-1.277a1.984 1.984 0 0 0-3.445 0h-9.278a1 1 0 0 0 0 2zm14 8h-1.277a1.984 1.984 0 0 0-3.445 0h-9.278a1 1 0 0 0 0 2h9.277a1.984 1.984 0 0 0 3.445 0h1.278a1 1 0 0 0 0-2zm0-5h-9.277a1.984 1.984 0 0 0-3.446 0h-1.277a1 1 0 0 0 0 2h1.277a1.984 1.984 0 0 0 3.446 0h9.277a1 1 0 0 0 0-2z"></path></svg></i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span id="spanResolutionTitle">Resolution</span><span class="shaka-current-selection-span" id="spanResolutionValue">Auto</span></label></button><button type="button" class="shaka-pip-button shaka-tooltip shaka-hidden" aria-label="Enter Picture-in-Picture" role="menuitem" tabindex="0"><i class="material-icons-round" aria-hidden="true">picture_in_picture_alt</i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span aria-label="Enter Picture-in-Picture">Picture-in-Picture</span><span class="shaka-current-selection-span" aria-hidden="true">Off</span></label></button><button type="button" class="shaka-overflow-button shaka-playbackrate-button shaka-tooltip-status shaka-hidden" aria-label="Playback speed" shaka-status="1x" role="menuitem" tabindex="0"><i class="material-icons-round" aria-hidden="true">slow_motion_video</i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span>Playback speed</span><span class="shaka-current-selection-span">1x</span></label></button><button type="button" class="shaka-airplay-button shaka-tooltip shaka-hidden" aria-pressed="false" aria-label="AirPlay" role="menuitem" tabindex="0"><i class="material-icons-round" aria-hidden="true">airplay</i><label class="shaka-overflow-button-label shaka-overflow-menu-only" aria-hidden="true"><span>AirPlay</span><span class="shaka-current-selection-span"></span></label></button><button class="keyboard-shortcuts-button customToolTipDisabled" id="overflowShortcutsbutton" aria-label="Keyboard Shortcuts" title="Keyboard Shortcuts">Keyboard Shortcuts</button></div><div class="shaka-no-propagation shaka-show-controls-on-mouse-over shaka-settings-menu shaka-hidden shaka-playback-rates" role="menu"><button type="button" class="shaka-back-to-overflow-button" aria-label="Playback speed - Go back to previous menu" role="menuitem"><i class="material-icons-round" aria-hidden="true">arrow_back</i><span>Playback speed</span></button><button type="button" title="2x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>2x</span></button><button type="button" title="1.75x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>1.75x</span></button><button type="button" title="1.5x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>1.5x</span></button><button type="button" title="1.25x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>1.25x</span></button><button type="button" title="1x" aria-checked="true" role="menuitemradio" aria-labelledby="span-playback-mobile-1x" aria-live="off" class="customToolTipDisabled" aria-selected="true"><span class="shaka-chosen-item">1x</span><span id="span-playback-mobile-1x" class="shaka-hidden">Selected</span><i class="material-icons-round shaka-chosen-item" aria-hidden="true">done</i></button><button type="button" title="0.75x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>0.75x</span></button><button type="button" title="0.5x" aria-checked="false" role="menuitemradio" class="customToolTipDisabled"><span>0.5x</span></button></div></div><div class="custom-texttrack-container" aria-hidden="true" style="bottom: 3%; transition-delay: 0.5s;"><span id="custom-textTrack-id" class="custom-textTrack captions-style-a8efc-3042-6bc9-b4b6-71e9906b85c8" aria-hidden="true" lang="es-es">Está diseñado para estar bien,</span></div><div class="shaka-text-container ai-captions ai-caption-onestr shaka-hidden" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;"><div style="white-space: pre-wrap; direction: ltr; opacity: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; margin: 0px; font-weight: 400; font-style: normal; text-align: center; writing-mode: horizontal-tb;"><span class="shaka-text-wrapper" id="aicaptionReader"></span></div></div><div id="ctaTimer" class="shaka-hidden">80.456114</div><div class="shaka-client-side-ad-container shaka-hidden"></div><div class="shaka-spinner-container shaka-hidden"><div class="shaka-spinner"><svg class="shaka-spinner-svg" viewBox="0 0 30 30"><circle class="shaka-spinner-path" cx="15" cy="15" r="14.5" fill="none" stroke-width="1" stroke-miterlimit="10"></circle></svg></div></div><div class="shaka-text-container captions-style-a8efc-3042-6bc9-b4b6-71e9906b85c8 shaka-hidden" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: flex-end;"><div style="white-space: pre-wrap; direction: ltr; opacity: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; font-weight: 400; font-style: normal; text-align: center; writing-mode: horizontal-tb;"><span style="background-color: rgba(0, 0, 0, 0.8);">Está diseñado para estar bien,</span></div></div><div class="tooltip" id="volumeTooltip" style="display: none;"></div><div id="modalContainer" class="modal-container shaka-hidden"><div class="modal-content"><button id="keyboardClose" title="close" role="button" type="button" tabindex="0" class="customToolTipDisabled"><span aria-hidden="true">✖</span></button><h4>Keyboard Shortcuts</h4><table role="presentation"><thead role="menu"><tr role="menuitem" aria-label="Shortcut name and Keyboard command" tabindex="0"><th aria-hidden="true" tabindex="-1">Shortcut name</th><th aria-hidden="true" tabindex="-1">Keyboard command</th></tr></thead><tbody role="menu"><tr role="menuitem" tabindex="0" aria-label="To Play or Pause media, Press Enter or Spacebar or Alt + K or Alt + P"><td aria-hidden="true" tabindex="-1">To Play or Pause media</td><td aria-hidden="true" tabindex="-1">Enter / Spacebar / Alt + K / Alt + P</td></tr><tr role="menuitem" tabindex="0" aria-label="To close open popups, Press Esc"><td aria-hidden="true" tabindex="-1">To close open popups</td><td aria-hidden="true" tabindex="-1">Esc</td></tr><tr role="menuitem" tabindex="0" aria-label="Mute or unmute sound, Press  Alt + M or M"><td aria-hidden="true" tabindex="-1">Mute or unmute sound</td><td aria-hidden="true" tabindex="-1"> Alt + M / M</td></tr><tr role="menuitem" tabindex="0" aria-label="To select different languages for captions, Press  Alt + C "><td aria-hidden="true" tabindex="-1">To select different languages for captions</td><td aria-hidden="true" tabindex="-1"> Alt + C </td></tr><tr role="menuitem" tabindex="0" aria-label="To display Fullscreen, Press  Alt + Enter"><td aria-hidden="true" tabindex="-1">To display Fullscreen</td><td aria-hidden="true" tabindex="-1"> Alt + Enter</td></tr><tr role="menuitem" tabindex="0" aria-label="To make forward 10 sec, Press Alt + L or Right Arrow "><td aria-hidden="true" tabindex="-1">To make forward 10 sec</td><td aria-hidden="true" tabindex="-1">Alt + L / Right Arrow </td></tr><tr role="menuitem" tabindex="0" aria-label="To make rewind 10 sec, Press Alt + J or Left Arrow "><td aria-hidden="true" tabindex="-1">To make rewind 10 sec</td><td aria-hidden="true" tabindex="-1">Alt + J / Left Arrow </td></tr><tr role="menuitem" tabindex="0" aria-label="Increase playback speed, Press Alt + X"><td aria-hidden="true" tabindex="-1">Increase playback speed</td><td aria-hidden="true" tabindex="-1">Alt + X</td></tr><tr role="menuitem" tabindex="0" aria-label="Decrease playback speed, Press Alt + Z"><td aria-hidden="true" tabindex="-1">Decrease playback speed</td><td aria-hidden="true" tabindex="-1">Alt + Z</td></tr><tr role="menuitem" tabindex="0" aria-label="Access keyboard shortcuts, Press  Alt + G "><td aria-hidden="true" tabindex="-1">Access keyboard shortcuts</td><td aria-hidden="true" tabindex="-1"> Alt + G </td></tr></tbody></table></div></div><span id="customTooltip" style="pointer-events: none; top: 411px; left: 559px;" aria-hidden="true" class="hideCustomTooltip">Español (España)</span></div><!----></div>
+		</div>
+	</div>
+</div>
+<div class="uhf-container margin-top-sm">
+	<div class="columns">
+		<div class="column is-8">
+			<p class="margin-top-lg supertitle is-uppercase letter-spacing-wide font-size-xs is-spaced">Episodio</p>
+			<h1 class="margin-top-xxs title is-4">Python para principiantes [2 de 44] Introducción a Python</h1>
+			<div class="margin-top-xxs margin-bottom-xxs title is-6 font-weight-semibold">
+				<a class="text-decoration-none" href="https://learn.microsoft.com/es-es/shows/intro-to-python-development/" data-linktype="relative-path">Python para principiantes</a>
+			</div>
+			<time class="margin-top-xxs margin-bottom-md upload-date has-text-subtle" datetime="2019-09-16T20:50:20.852Z">16 sept 2019</time>
+			<div id="desc" class="description">
+				<p></p><p>Antes de empezar a trabajar en su recorrido hacia el 
+aprendizaje de Python, es importante saber por qué. Hablaremos sobre qué
+ es Python, dónde lo usará y cómo puede ayudarle a resolver el problema.</p><p>Curso completo de introducción a Python en Microsoft Learn:&nbsp;<a href="https://aka.ms/MSLearnPython" data-linktype="external">https://aka.ms/MSLearnPython</a></p><p>Ejemplo de código:&nbsp;<a href="https://aka.ms/PythonGettingStarted" data-linktype="external">https://aka.ms/PythonGettingStarted</a><br>Vea toda la serie:&nbsp;<a href="https://aka.ms/PythonBeginnerSeries" data-linktype="external">https://aka.ms/PythonBeginnerSeries</a></p>
+<p></p>
+			</div>
+			<div class="tabs-container description is-hidden">
+				<div class="tabs">
+					<div class="tab-list" role="tablist">
+						<div class="tab-parent is-active">
+							<button class="tab-control" id="tab-description" role="tab" aria-controls="description" aria-selected="true" tabindex="0">Description</button>
+						</div>
+						<div class="tab-parent">
+							<button class="tab-control" id="tab-embed" role="tab" aria-controls="embed" aria-selected="false" tabindex="-1">Insertar</button>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" id="description" data-tab-content="description" aria-hidden="false">
+					<p></p><p>Antes de empezar a trabajar en su recorrido hacia el 
+aprendizaje de Python, es importante saber por qué. Hablaremos sobre qué
+ es Python, dónde lo usará y cómo puede ayudarle a resolver el problema.</p><p>Curso completo de introducción a Python en Microsoft Learn:&nbsp;<a href="https://aka.ms/MSLearnPython" data-linktype="external">https://aka.ms/MSLearnPython</a></p><p>Ejemplo de código:&nbsp;<a href="https://aka.ms/PythonGettingStarted" data-linktype="external">https://aka.ms/PythonGettingStarted</a><br>Vea toda la serie:&nbsp;<a href="https://aka.ms/PythonBeginnerSeries" data-linktype="external">https://aka.ms/PythonBeginnerSeries</a></p>
+<p></p>
+				</div>
+				<div role="tabpanel" id="embed" data-tab-content="embed" hidden="" aria-hidden="true">
+					<div class="margin-top-xxs margin-bottom-xxs title is-6 font-weight-semibold">Dirección URL del vídeo</div>
+					<div class="box">
+						<div class="field">
+							<div class="control display-inline-flex">
+								<label class="checkbox checkbox-sm">
+									<input id="videourl-starttime-checkbox" type="checkbox">
+									<span class="checkbox-check" aria-hidden="true"></span>
+									<span class="checkbox-text">Hora de inicio</span>
+								</label>
+								<input id="videourl-starttime-input" class="input input-sm width-150 margin-left-xxs customToolTipDisabled" type="text" value="00:00" title="Write a duration in the format mm:ss" disabled="disabled">
+							</div>
+						</div>
+						<div class="field margin-top-xxs">
+							<div class="control">
+								<textarea id="videourl-textarea" class="textarea" placeholder="textarea for the video URL">&gt;
+ [!VIDEO 
+https://learn-video.azurefd.net/vod/player?show=intro-to-python-
+development&amp;ep=python-for-beginners-2-of-44-introducing-python]</textarea>
+							</div>
+						</div>
+						<div class="field margin-top-xs">
+							<div class="control">
+								<button id="videourl-copy" type="button" value="Copy" class="button button-primary button-filled">Copiar dirección URL del vídeo</button>
+							</div>
+						</div>
+					</div>
+					<div class="margin-top-xxs margin-bottom-xxs title is-6 font-weight-semibold">iframe HTML</div>
+					<div class="box">
+						<div class="field">
+							<label for="iframe-size-select" class="label margin-bottom-xxs">Tamaño del reproductor</label>
+							<div class="control">
+								<div class="select select-sm">
+									<select id="iframe-size-select">
+										<option value="1920 x 1080" selected="selected">1920 x 1080</option>
+										<option value="1280 x 720">1280 x 720</option>
+										<option value="640 x 360">640 x 360</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="field margin-top-xxs">
+							<div class="control display-inline-flex margin-top-xxs">
+								<label class="checkbox checkbox-sm">
+									<input id="iframe-starttime-checkbox" type="checkbox">
+									<span class="checkbox-check" aria-hidden="true"></span>
+									<span class="checkbox-text">Hora de inicio</span>
+								</label>
+								<input id="iframe-starttime-input" class="input input-sm width-150 margin-left-xxs customToolTipDisabled" type="text" value="00:00" title="Write a duration in the format mm:ss" disabled="disabled">
+							</div>
+						</div>
+						<div class="field margin-top-xxs">
+							<div class="control">
+								<textarea id="iframe-textarea" class="textarea" placeholder="textarea for the iframe">&lt;iframe
+ 
+src="https://learn-video.azurefd.net/vod/player?show=intro-to-python-
+development&amp;ep=python-for-beginners-2-of-44-introducing-python" 
+width="1920" height="1080" style="border: 0; max-width: 100%; min-width:
+ 100%;"&gt;&lt;/iframe&gt;</textarea>
+							</div>
+						</div>
+						<div class="field margin-top-xs">
+							<div class="control">
+								<button id="iframe-copy" type="button" value="Copy" class="button button-primary button-filled">Copiar iframe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tags margin-top-lg">
+					<div class="tag">
+						Python
+					</div>
+			</div>
+		</div>
+	</div>
+	<div id="ms--inline-notifications" class="margin-block-xs" data-bi-name="inline-notification"></div>
+</div>
+</div>
+					
+				</div>
+				<div class="uhf-container margin-block-sm">
+		<section>
+			<p class="font-weight-semibold">¿Quiere hacer algún comentario? <a id="learntv-feedback-link" class="color-hyperlink" data-bi-name="feedback" href="https://learn.microsoft.com/es-es/training/support/troubleshooting?uid=intro-to-python-development.python-for-beginners-2-of-44-introducing-python&amp;documentId=f7dcbb4b-0670-4a0f-64da-de870cb322b5&amp;versionIndependentDocumentId=f7dcbb4b-0670-4a0f-64da-de870cb322b5&amp;platformId=98e88e6c-4bc1-5e75-02c4-98b047bca2ac&amp;contentPath=%2FMicrosoftDocs%2Fshow-pr%2Fblob%2Flive%2Fshows%2Fintro-to-python-development%2Fpython-for-beginners-2-of-44-introducing-python.yml&amp;url=https%3A%2F%2Flearn.microsoft.com%2Fes-es%2Fshows%2Fintro-to-python-development%2Fpython-for-beginners-2-of-44-introducing-python#feedback-report-form">Comunique un problema aquí</a>.</p>
+		</section>
+	</div>
+			</div>
+		
+				</main>
+				  <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer id="footer" data-test-id="footer" data-bi-name="footer" class="footer-layout has-padding has-default-focus border-top  uhf-container" role="contentinfo">
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a data-mscc-ic="false" href="https://learn.microsoft.com/es-es/locale?target=https%3A%2F%2Flearn.microsoft.com%2Fes-es%2Fshows%2Fintro-to-python-development%2Fpython-for-beginners-2-of-44-introducing-python" data-bi-name="select-locale" class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator" id="" title="" aria-label="Selector de idioma del contenido. Actualmente está establecido en Español (España)."><span class="icon" aria-hidden="true"><span class="docon docon-world"></span></span><span class="local-selector-link-text">Español (España)</span></a>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link="">
+		
+		<a data-mscc-ic="false" href="https://aka.ms/yourcaliforniaprivacychoices" data-bi-name="your-privacy-choices" class="button button-sm button-clear flex-shrink-0 external-link-indicator" id="" title="">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43" aria-hidden="true" focusable="false">
+			<path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+			<path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+			<path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
+			<path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
+		</svg>
+	
+			<span>Sus opciones de privacidad</span></a>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button data-test-id="theme-selector-button" class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger customToolTipDisabled" aria-controls="{{ themeMenuId }}" aria-expanded="false" title="Tema" data-bi-name="theme">
+				<span class="icon">
+					<span class="docon docon-sun" aria-hidden="true"></span>
+				</span>
+				<span>Tema</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left is-selected" data-theme-to="light" aria-pressed="true">
+							<span class="theme-light margin-right-xxs">
+								<span class="theme-selector-icon border display-inline-block has-body-background" aria-hidden="true">
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background"></rect>
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Claro </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left" data-theme-to="dark" aria-pressed="false">
+							<span class="theme-dark margin-right-xxs">
+								<span class="border theme-selector-icon display-inline-block has-body-background" aria-hidden="true">
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background"></rect>
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Oscuro </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left" data-theme-to="high-contrast" aria-pressed="false">
+							<span class="theme-high-contrast margin-right-xxs">
+								<span class="border theme-selector-icon display-inline-block has-body-background" aria-hidden="true">
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background"></rect>
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary"></rect>
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary"></rect>
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary"></rect>
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary"></rect>
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary"></rect>
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary"></rect>
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Contraste alto </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a data-mscc-ic="false" href="https://learn.microsoft.com/es-es/principles-for-ai-generated-content" data-bi-name="aiDisclaimer" class=" external-link-indicator" id="" title="">Declinación de responsabilidades de IA</a>
+	
+	</li><li>
+		
+		<a data-mscc-ic="false" href="https://learn.microsoft.com/es-es/previous-versions/" data-bi-name="archivelink" class=" external-link-indicator" id="" title="">Versiones anteriores</a>
+	
+	</li> <li>
+		
+		<a data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink" class=" external-link-indicator" id="" title="">Blog</a>
+	
+	</li> <li>
+		
+		<a data-mscc-ic="false" href="https://learn.microsoft.com/es-es/contribute" data-bi-name="contributorGuide" class=" external-link-indicator" id="" title="">Contribuir</a>
+	
+	</li><li>
+		
+		<a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy" class=" external-link-indicator" id="" title="">Privacidad</a>
+	
+	</li><li>
+		
+		<a data-mscc-ic="false" href="https://learn.microsoft.com/es-es/legal/termsofuse" data-bi-name="termsofuse" class=" external-link-indicator" id="" title="">Términos de uso</a>
+	
+	</li><li>
+		
+		<a data-mscc-ic="false" href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/" data-bi-name="trademarks" class=" external-link-indicator" id="" title="">Marcas comerciales</a>
+	
+	</li>
+				<li>© Microsoft 2026</li>
+			</ul>
+		</footer>
+	
+			
+		</div><div role="alert" aria-live="assertive" aria-relevant="additions" aria-atomic="true" class="visually-hidden" id="assertive-live-region"></div><div role="status" aria-live="polite" aria-relevant="additions" aria-atomic="true" class="visually-hidden" id="polite-live-region"></div><script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/shaka-player.ui.min.js" async="" defer="defer"></script><script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/mux.min.js" async="" defer="defer"></script><script src="Python%20para%20principiantes%20[2%20de%2044]%20Introducci%C3%B3n%20a%20Python%20_%20Microsoft%20Learn_files/one_stream_player-v0.4.0.min.js" async="" defer="defer"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Python para principiantes [2 de 44] Introducción a Python","description":"Antes de empezar a trabajar en su recorrido hacia el aprendizaje de Python, es importante saber por qué. Hablaremos sobre qué es Python, dónde lo usará y cómo puede ayudarle a resolver el problema.Curso completo de introducción a Python en Microsoft Learn:&nbsp;https://aka.ms/MSLearnPythonEjemplo de código:&nbsp;https://aka.ms/PythonGettingStartedVea toda la serie:&nbsp;https://aka.ms/PythonBeginnerSeries ","thumbnailUrl":"https://videoencodingpublic-hgeaeyeba8gycee3.b01.azurefd.net/public-538eb8eb-f618-4d22-8bbe-15405582f5a6/introducingpython_960.jpg","uploadDate":"2019-07-23T18:07:29","contentUrl":"https://videoencodingpublic-hgeaeyeba8gycee3.b01.azurefd.net/public-538eb8eb-f618-4d22-8bbe-15405582f5a6/introducingpython_high.mpd","embedUrl":"https://learn-video.azurefd.net/vod/player?show=intro-to-python-development&ep=python-for-beginners-2-of-44-introducing-python","duration":"PT3M9S"}</script></body></html>

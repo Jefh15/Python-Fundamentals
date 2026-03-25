@@ -1,0 +1,19 @@
+What do i need to get started
+
+Somewhere for python to run
+	Interpreter
+
+		Installation
+		https://www.pyhon.org/downloads/
+		
+		More Info
+		https://www.python.org/doc/
+		
+Something for writing Python
+	Editor
+		Installation
+		https://code.visualstudio.com/
+		Extension
+		https://marketplace.visualstudio.com/terms?itemName=ms-python.python
+		More info
+		https://coe.visualstudio.com/docs/languages/phyton
